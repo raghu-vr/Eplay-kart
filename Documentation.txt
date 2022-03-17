@@ -1,0 +1,23 @@
+>open client folder in “cmd” and run “npm install” do the same in “server” folder
+
+>then in the integrated terminal of server run "npm init"
+
+>install dependencies : " npm install bcryptjs dotenv express express-async-handler jsonwebtoken mongoose morgan "
+
+> " npm install -D concurrently nodemon "
+
+> npm install dotenv --save
+
+> then create a .env file in the server folder of your project and enter :
+	PORT =
+    	NODE_ENV
+    	JWT_SECRET
+    	PAYPAL_CLIENT_ID
+    	MONGO_URL
+	
+>First run server for typing “npm run server”
+
+>then run client folder for typing “npm start”
+
+>
+
